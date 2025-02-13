@@ -1,0 +1,43 @@
+function [maxval,minval, meanval, medianval, stdval] = ArrayStats(a)
+%ARRAYSTATS computes various descriptive statistics from an array of
+%numbers using loops. 
+%   maxval = the maximum in the array
+%   minval = the minimum value in the array
+%   meanval = the mean value of the array
+%   medianval = the median value of the array
+%   stdval = the statndard deviation of the array
+
+% Initialize variables
+maxval = a(1);
+minval = a(1);
+sumval = 0;
+
+%Calculate maxvel, minval, and sumval using loops
+for i = length(a)
+    if a(i) > maxval
+        maxval = a(i);
+    end
+    if a(i) < minval
+        minval = a(i);
+    end
+    sumval = sumval + a(i);
+end
+
+%Calculate meanval
+meanval = sumval/length(a);
+
+%Calculate medianval
+sorted_a = sort(a);
+if mod(length(a),2) == 0
+    medianval = (sorted_a(length(a)/2) + sorted_a(length(a)/2 +1))/2;
+else
+    medianval = sorted_a((length(a) + 1)/2);
+end
+
+%Calculate stdval
+sum_sq_diff = 0;
+for i = lenth(a)
+    sum_sq_diff = sum_sq_diff
+
+end
+

@@ -1,0 +1,21 @@
+function numCoins = makechange(amount,coins)
+%makeChange determines the minimum number of coins to make a given amount
+%of change using loops
+%   numCoins = the minimum number of coins needed, or -1 if invalid inputs
+%   or exact change cannot be made
+
+% Check for invalid inputs
+if amount < 0 ||isempty(coins)
+    numCoins = -1;
+    return;
+end
+
+%Sort coins in descending order
+coins = sort(coins, 'descend');
+
+%Initialize coin count
+numCoins = 0;
+
+%Loop over the array of coins
+for c = coins
+    %Lo

@@ -1,0 +1,11 @@
+%SID:862480118
+%Kincade-Bennett,Elijah
+
+%ME18A Assignment Lab 1
+%January 16, 2025
+
+   1.9225806e+01
+   1.1532730e+03
+   1.6050131e-06
+   3.2337704e-01
+   4.4809209e+00

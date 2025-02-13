@@ -1,0 +1,20 @@
+A1volume
+What is the height of the cone? 15.0
+What is the radius of the cone? 3.5
+A right circular triangular cone with a radius=3.50 cm and height=15.00 cm, has a volume=192.42 cc.A1volume
+What is the height of the cone? 15.0
+What is the radius of the cone? 3.5
+A right circular triangular cone with a radius=3.50 cm and height=15.00 cm, has a volume=192.42 cc.
+A1distance
+What is x1? -3
+What is x2? 3
+What is y1? 2
+What is y2? -6
+What is z1? 5
+What is z2? -5
+The distance between x1=-3.000000,x2=2.000000,y1=3.000000,y2=-6.000000,z1=5.000000,z2=-5.000000 in a three dimensional coordinate system is d=158.000000
+A1power
+what is p2 in mW?25
+25.00 mW is equal to 13.98 dBm
+
+diary off
